@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.qrcode.min.js"></script>
+	<title>生成二维码</title>
+</head>
+<body>
+	生成二维码：
+	<div id="qrcode"></div>
+	<script type="text/javascript">
+		jQuery('#qrcode').qrcode("http://www.baidu.com");
+	</script>
+</body>
+</html>
